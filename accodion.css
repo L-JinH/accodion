@@ -1,0 +1,56 @@
+/* setting */
+html,
+body {
+  /* font style */
+  font-family: Helvetica, Arial, sans-serif;
+  /* margin 초기화 */
+  margin: 0;
+  /* background color 지정 */
+  background-color: #f0f0f0;
+}
+
+/* 전체 style */
+.container {
+  /* 전체 width 정하기. */
+  width: 90%;
+  /* 가운데 정렬 */
+  margin: 0 auto;
+}
+
+/* 질문란 style 및 정렬 */
+.panel-question {
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.panel-heading {
+  font-weight: bold;
+  /* 간격 주기. */
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.panel-body {
+  /* 간격 주기. */
+  padding: 15px;
+  /* 2번째 유형 : accodion1.js in 1-1 */
+  display: none;
+}
+
+/* 2번째 유형: accodion1.js 1-2 
+(.panel-question).active .panel-body */
+.active .panel-body {
+  display: block;
+}
+
+#btn-collapse {
+  margin-bottom: 10px;
+  background-color: #999;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  float: right;
+}
