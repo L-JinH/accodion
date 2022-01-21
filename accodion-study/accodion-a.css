@@ -1,0 +1,50 @@
+/* reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+/* 전체 정렬 */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* btn style */
+#btn {
+  border: none;
+  border-radius: 3px;
+  background-color: olivedrab;
+  padding: 5px 10px;
+  font-weight: bold;
+  float: right;
+  color: white;
+}
+
+h2 {
+  color: olivedrab;
+}
+
+.question {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: olivedrab;
+  padding: 5px;
+  color: white;
+}
+
+.body {
+  padding: 10px;
+  line-height: 20px;
+  background-color: white;
+  display: none;
+}
+
+.active .body {
+  display: block;
+}
