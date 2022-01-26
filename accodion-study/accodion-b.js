@@ -7,7 +7,7 @@ for (let i = 0; i < header.length; i++) {
   header[i].addEventListener("click", function (ev) {
     // 적힌 순서 중요. 다 뺀 다음 추가.
     removeActive();
-    this.parentNode.classList.add("active");
+    this.parentNode.classList.toggle("active");
   });
 }
 
