@@ -1,0 +1,21 @@
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  /* background-color: pink; */
+  height: 2rem;
+  line-height: 2rem;
+  padding: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.body {
+  display: none;
+}
+
+.active .body {
+  display: block;
+}
